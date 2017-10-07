@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import  cv2
 import numpy as np
 
@@ -53,10 +53,3 @@ cv2.imshow('green', cv2.merge([zeros, G, zeros]))
 cv2.imshow('blue', cv2.merge([B, zeros, zeros   ]))
 cv2.waitKey()
 cv2.destroyAllWindows()
-
-=======
-import  cv2
-import numpy as np
-
-input = cv2.imread('./images/dog.jpg')
->>>>>>> master
